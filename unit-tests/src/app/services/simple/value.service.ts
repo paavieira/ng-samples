@@ -3,14 +3,14 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class ValueService {
 
-  private _value: string;
+  private value: string;
 
   getValue() {
-    return this._value;
+    return this.value;
   }
 
   setValue(value: string) {
-    this._value = value;
+    this.value = value;
   }
 
 }
