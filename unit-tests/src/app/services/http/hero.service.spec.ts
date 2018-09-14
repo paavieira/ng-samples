@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 
-import { asyncData } from './async-data';
-import { asyncError } from './async-error';
+import { asyncData } from '../../helpers/async-data';
+import { asyncError } from '../../helpers/async-error';
 
 import { HeroService } from './hero.service';
 import { Hero } from './hero';
