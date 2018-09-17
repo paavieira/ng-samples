@@ -16,6 +16,10 @@ describe('BannerComponent', () => {
   });
 
   it('no title in the DOM after createComponent()', () => {
+    expect(h1.textContent).not.toEqual(component.title);
+  });
+
+  it('no title in the DOM after createComponent()', () => {
     expect(h1.textContent).toEqual('');
   });
 
