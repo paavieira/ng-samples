@@ -20,8 +20,8 @@ describe('directives > validation', () => {
   let inputDe: DebugElement;
   let formDe: DebugElement;
 
-  let form: NgForm;
   let control: NgModel;
+  let form: NgForm;
 
   beforeEach(async(() => {
 
