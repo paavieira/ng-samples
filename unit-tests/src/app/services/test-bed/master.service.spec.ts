@@ -1,8 +1,8 @@
 import { TestBed } from '@angular/core/testing';
-import { MasterService } from '../with-dependencies/master.service';
-import { ValueService } from '../simple/value.service';
+import { MasterService } from './master.service';
+import { ValueService } from './value.service';
 
-describe('MasterService', () => {
+describe('services > test-bed > with-dependencies', () => {
 
   let masterService: MasterService;
   let valueServiceSpy: jasmine.SpyObj<ValueService>;

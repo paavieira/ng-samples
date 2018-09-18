@@ -1,6 +1,6 @@
 import { SwitchComponent } from './switch.component';
 
-describe('SwitchComponent', () => {
+describe('components > basic-class-testing', () => {
 
   let component;
 

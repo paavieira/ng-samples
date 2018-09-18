@@ -5,7 +5,7 @@ import { ActivatedRoute, Router }   from '@angular/router';
 import { Hero } from './hero';
 import { HeroDetailService } from './hero-detail.service';
 
-// (os imports foram omitidos)
+
 
 @Component({
   selector: 'app-hero-detail',

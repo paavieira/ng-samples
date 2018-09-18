@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-// (os imports foram omitidos)
-
 @Component({
   selector: 'app-root',
   template: `

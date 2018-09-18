@@ -6,8 +6,6 @@ import { map } from 'rxjs/operators';
 
 import { Planet } from './planet';
 
-// (os imports foram omitidos)
-
 @Injectable()
 export class PlanetService {
 

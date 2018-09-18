@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { BindingBannerComponent } from './binding-banner.component';
 
-describe('BannerComponent', () => {
+describe('components > binding', () => {
   let component: BindingBannerComponent;
   let fixture: ComponentFixture<BindingBannerComponent>;
   let h1: HTMLElement;

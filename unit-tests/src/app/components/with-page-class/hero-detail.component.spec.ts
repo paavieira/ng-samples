@@ -86,7 +86,7 @@ let createRouterSpy = (): jasmine.SpyObj<Router> => {
 
 // Tests
 
-describe('HeroDetailComponent', () => {
+describe('components > with-page-class', () => {
 
   beforeEach(async(() => {
     const activatedRoute = new ActivatedRouteStub({id: testHero.id});

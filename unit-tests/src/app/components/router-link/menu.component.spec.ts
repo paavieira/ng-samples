@@ -1,16 +1,13 @@
 import { DebugElement } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-
-import { RouterLinkComponent } from './router-link.component';
+import { MenuComponent } from './menu.component';
 import { RouterLinkDirectiveStub } from '../../helpers/router-link-directive-stub';
 
-// (os imports foram omitidos)
+describe('components > router-link', () => {
 
-describe('RouterLinkComponent', () => {
-
-  let component: RouterLinkComponent;
-  let fixture: ComponentFixture<RouterLinkComponent>;
+  let component: MenuComponent;
+  let fixture: ComponentFixture<MenuComponent>;
 
   let linkDes: DebugElement[];
   let routerLinks: RouterLinkDirectiveStub[];
@@ -19,12 +16,12 @@ describe('RouterLinkComponent', () => {
 
     TestBed.configureTestingModule({
       declarations: [
-        RouterLinkComponent,
+        MenuComponent,
         RouterLinkDirectiveStub
       ],
     });
 
-    fixture = TestBed.createComponent(RouterLinkComponent);
+    fixture = TestBed.createComponent(MenuComponent);
     component = fixture.componentInstance;
 
     fixture.detectChanges(); // trigger initial data binding

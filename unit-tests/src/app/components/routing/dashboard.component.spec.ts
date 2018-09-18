@@ -2,15 +2,15 @@ import { DebugElement } from '@angular/core';
 import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { Router } from '@angular/router';
 
-import { DashboardComponent } from './dashboard.component';
-import { click } from '../../helpers/click';
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
 import { of } from 'rxjs';
 
-// (os imports foram omitidos)
+import { DashboardComponent } from './dashboard.component';
+import { Hero } from './hero';
+import { HeroService } from './hero.service';
 
-describe('DashboardComponent', () => {
+import { click } from '../../helpers/click';
+
+describe('components > routing', () => {
 
   let component: DashboardComponent;
   let fixture: ComponentFixture<DashboardComponent>;

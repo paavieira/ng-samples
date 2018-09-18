@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-// (os imports foram omitidos)
-
 @Component({
   selector: 'my-app',
   template: `
@@ -12,9 +10,9 @@ import { Component, OnInit } from '@angular/core';
     </nav>
   `
 })
+export class MenuComponent implements OnInit {
 
-export class RouterLinkComponent implements OnInit {
   constructor() { }
-
   ngOnInit() { }
+
 }

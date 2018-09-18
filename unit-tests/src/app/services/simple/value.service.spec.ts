@@ -1,6 +1,6 @@
 import { ValueService } from './value.service';
 
-describe('ValueService', () => {
+describe('services > simple', () => {
 
   let service: ValueService;
 

@@ -1,8 +1,7 @@
-import { TestBed } from "@angular/core/testing";
+import { TestBed } from '@angular/core/testing';
+import { ValueService } from './value.service';
 
-import { ValueService } from "../simple/value.service";
-
-describe('ValueService', () => {
+describe('services > test-bed > simple', () => {
 
   let service: ValueService;
 

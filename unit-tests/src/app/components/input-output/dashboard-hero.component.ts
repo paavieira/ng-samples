@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Hero } from './hero';
 
-// (os imports foram omitidos)
+
 
 @Component({
   selector: 'dashboard-hero',

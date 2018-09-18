@@ -1,7 +1,7 @@
 import { MasterService } from './master.service';
-import { ValueService } from '../simple/value.service';
+import { ValueService } from './value.service';
 
-describe('MasterService', () => {
+describe('services > with-dependencies', () => {
 
   let masterService: MasterService;
 

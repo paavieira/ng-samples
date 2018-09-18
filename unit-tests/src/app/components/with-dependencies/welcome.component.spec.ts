@@ -2,7 +2,7 @@ import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { WelcomeComponent } from './welcome.component';
 import { UserService } from './user.service';
 
-describe('WelcomeComponent', () => {
+describe('components > with dependencies', () => {
 
   let component: WelcomeComponent;
   let fixture: ComponentFixture<WelcomeComponent>;

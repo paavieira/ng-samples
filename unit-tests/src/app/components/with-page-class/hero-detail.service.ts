@@ -5,7 +5,7 @@ import { Hero } from './hero';
 @Injectable()
 export class HeroDetailService {
 
-  // this service does nothing as it will be mocked by the tests
+  // this service will be mocked
 
   getHero(id: number | string): Observable<Hero> {
     return of();

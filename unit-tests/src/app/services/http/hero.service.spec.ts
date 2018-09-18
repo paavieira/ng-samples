@@ -6,7 +6,7 @@ import { asyncError } from '../../helpers/async-error';
 import { HeroService } from './hero.service';
 import { Hero } from './hero';
 
-describe('HeroService', () => {
+describe('services > http', () => {
 
   let httpSpy: { get: jasmine.Spy };
   let heroService: HeroService;

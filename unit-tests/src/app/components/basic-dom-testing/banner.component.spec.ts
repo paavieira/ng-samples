@@ -3,7 +3,7 @@ import { BannerComponent } from './banner.component';
 import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
 
-describe('BannerComponent', () => {
+describe('components > basic-dom-testing', () => {
   let component: BannerComponent;
   let fixture: ComponentFixture<BannerComponent>;
 
@@ -15,16 +15,16 @@ describe('BannerComponent', () => {
     component = fixture.componentInstance;
   });
 
-  it('should create', () => {
+  it('should create component', () => {
     expect(component).toBeDefined();
   });
 
-  it('should contain "banner works!"', () => {
+  it('should contain \'banner works!\'', () => {
     const bannerElement: HTMLElement = fixture.nativeElement;
     expect(bannerElement.textContent).toContain('banner works!');
   });
 
-  it('should have <p> with "banner works!"', () => {
+  it('should have <p> with \'banner works!\'', () => {
     const bannerElement: HTMLElement = fixture.nativeElement;
     const p = bannerElement.querySelector('p');
     expect(p.textContent).toEqual('banner works!');

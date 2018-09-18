@@ -1,13 +1,14 @@
-import { PlanetService } from './planet.service';
-import { PlanetsComponent } from './planets.component';
 import { ComponentFixture, TestBed, fakeAsync, tick, async } from '@angular/core/testing';
+
 import { of, throwError } from 'rxjs';
-import { asyncData } from '../../helpers/async-data';
 import { last } from 'rxjs/operators';
 
-// (os imports foram omitidos)
+import { PlanetService } from './planet.service';
+import { PlanetsComponent } from './planets.component';
 
-describe('PlanetsComponent', () => {
+import { asyncData } from '../../helpers/async-data';
+
+describe('components > with-async-dependencies', () => {
 
   let component: PlanetsComponent;
   let fixture: ComponentFixture<PlanetsComponent>;

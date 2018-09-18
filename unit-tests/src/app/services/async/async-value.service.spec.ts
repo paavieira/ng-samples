@@ -1,6 +1,6 @@
 import { AsyncValueService } from './async-value.service';
 
-describe('AsyncValueService', () => {
+describe('services > async', () => {
 
   let service: AsyncValueService;
 

@@ -14,9 +14,9 @@ class RouterOutletStubComponent { }
 @Component({selector: 'app-welcome', template: ''})
 class WelcomeStubComponent {}
 
-describe('AppComponent', () => {
+describe('components > nested-components', () => {
 
-  it('should have created component (with nested components stubs)', () => {
+  it('should have created component (with stubs)', () => {
 
     TestBed.configureTestingModule({
       declarations: [
