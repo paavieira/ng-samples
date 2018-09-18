@@ -102,9 +102,6 @@ describe('HeroDetailComponent', () => {
       ]
     });
 
-    const actual = 1 + 1;
-    expect(actual).toBe(2);
-
     createComponent();
 
   }));
